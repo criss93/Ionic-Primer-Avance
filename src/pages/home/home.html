@@ -1,14 +1,47 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="twitter">
     <ion-title>
-      Ionic Blank
+      Home Page
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
+  <div align="center">
+    <h1 ion-text color="secondary">
+      ¡Hello!
+    </h1>
+    <h2>
+      Welcome to my App.
+    </h2>
+    <br/>
+    <p ion-text color="danger">
+      This is my first Ionic application, so there's no much to offer you. If you're reading this it means that I beat the tutorial's
+      first challenge because it works.
+    </p>
+    <br/>
+    <button ion-button (click)="navigateToSecondPage()">Navigate to Second Page</button>
+    <br/>
+    <p ion-text color="danger">
+      That's all for now. Have a great day!
+    </p>
+  </div>
+  <!--The world is your oyster.
+    <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+    </p>-->
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar color="greyDay">
+    <p ion-text color="light">
+      Made by Cristian Cocco
+    </p>
+  </ion-toolbar>
+</ion-footer>
